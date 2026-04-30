@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.65, 44.41]
+      },
+      "properties": {
+        "tree_name": "Wild Simcoe Apple Tree",
+        "discovery_date": "2026-04-01",
+        "discoverer_name": "John Doe",
+        "tree_type": "Apple",
+
+        "tree_picture_url": "images/tree_placeholder.jpg",
+
+        "flowering_time": "May",
+        "flowering_colour": "White-Pink",
+        "flower_picture_url": "images/flower_placeholder.jpg",
+
+        "fruit_time": "September",
+        "fruit_taste": "Sweet-Tart",
+        "fruit_picture_url": "images/fruit_placeholder.jpg",
+
+        "misc_info": "Found near a rural trail edge, heavy seasonal fruiting."
+      }
+    }
+  ]
+}
