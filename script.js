@@ -1,5 +1,5 @@
 // Initialize map centered on Simcoe County, Ontario
-const map = L.map("map").setView([44.4, -79.7], 9);
+const map = L.map("map").setView([44.4, -79.7], 11);
 
 // Base layer
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
