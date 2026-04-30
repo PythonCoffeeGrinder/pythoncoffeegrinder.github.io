@@ -5,25 +5,25 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-79.65, 44.41]
+        "coordinates": [-79.692402, 44.368287]
       },
       "properties": {
-        "tree_name": "Wild Simcoe Apple Tree",
+        "tree_name": "AppleTreeMcAppleTreeFace",
         "discovery_date": "2026-04-01",
-        "discoverer_name": "John Doe",
+        "discoverer_name": "Admin",
         "tree_type": "Apple",
 
-        "tree_picture_url": "images/tree_placeholder.jpg",
+        "tree_picture_url": "images/tree1.jpg",
 
         "flowering_time": "May",
         "flowering_colour": "White-Pink",
-        "flower_picture_url": "images/flower_placeholder.jpg",
+        "flower_picture_url": "images/flower1.jpg",
 
         "fruit_time": "September",
         "fruit_taste": "Sweet-Tart",
-        "fruit_picture_url": "images/fruit_placeholder.jpg",
+        "fruit_picture_url": "images/fruit1.jpg",
 
-        "misc_info": "Found near a rural trail edge, heavy seasonal fruiting."
+        "misc_info": "Found near in community orchard on south side of Shear Park. See website for more info on Barrie's Community Orchard : https://www.barrie.ca/community-recreation-environment/parks-trails-waterfront/community-orchards-food-forests"
       }
     }
   ]
