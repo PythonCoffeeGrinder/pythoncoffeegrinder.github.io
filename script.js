@@ -40,7 +40,16 @@ async function loadTrees() {
           </div>
         `;
 
-        layer.bindPopup(popupContent);
+        layer.bindPopup(popupContent, {
+          maxWidth: 380,
+          maxHeight: 320,
+          autoPan: true,
+          autoPanPadding: [16, 16],
+          autoPanPaddingTopLeft: [16, 16],
+          autoPanPaddingBottomRight: [16, 16],
+          keepInView: true,
+          closeButton: true
+        });
       }
     }).addTo(map);
 
