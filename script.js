@@ -13,9 +13,13 @@ async function loadTrees() {
     const data = await response.json();
 
     function getPopupOptions() {
+      const isMobile = window.innerWidth <= 768;
+      const mapHeight = map.getSize().y;
+      const mapWidth = map.getSize().x;
+
       return {
-        maxWidth: 380,
-        maxHeight: Math.max(map.getSize().y - 40, 180),
+        maxWidth: isMobile ? Math.min(280, Math.floor(mapWidth * 0.75)) : 380,
+        maxHeight: isMobile ? Math.max(Math.floor(mapHeight * 0.45), 180) : Math.max(mapHeight - 40, 180),
         autoPan: true,
         autoPanPadding: [16, 16],
         autoPanPaddingTopLeft: [16, 16],
